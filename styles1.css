@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden
+}
+
+
+/* NAVBAR */
+nav {
+    background: black;
+    overflow: auto;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    margin-right: 200px;
+}
+
+.right {
+    float: right;
+    margin-right: 50px;
+}
+
+li {
+    display: inline-block;
+}
+
+.left li a {
+    width: 200px;
+    display: block;
+    color: #00E2DA;
+    font-size: 30px;
+    font-family: Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+}
+
+.right li a {
+    width: 50px;
+    display: block;
+    color: #00E2DA;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+    .left li a:hover, .right li a:hover {
+        background: white;
+        border-radius: 10px;
+    }
+
+.fa-home, .fa-linkedin, .fa-github {
+    font-size: 20px;
+}
+
+
+.in {
+    width: 30px;
+    height: 30px;
+}
+
+/* HOME SECTION*/
+
+.home {
+    display: flex;
+    height: 100vh;
+    background: url(images/greyyy.jpg) no-repeat center center;
+    min-height: 500px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+    .home .max-width {
+        margin: auto 0 auto 40px;
+        align-content: center;
+    }
+
+    .home .home-content .text-1 {
+        font-size: 60px;
+        color: #00E2DA;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 80px;
+        color: #00E2DA;
+        margin-left: 55px;
+        font-weight: 900;
+        -webkit-animation: colorchange 10s infinite alternate;
+    }
+
+@-webkit-keyframes colorchange {
+    0% {
+        color: #00E2DA;
+    }
+
+    50% {
+        color: black;
+    }
+}
+
+.home .home-content .text-3 {
+    font-size: 60px;
+    color: black;
+    margin-left: 90px;
+    font-weight: 700;
+}
+
+.home .home-content .text-4 {
+    font-size: 60px;
+    color: black;
+    right: -1330px;
+    top: -200px;
+    position: relative;
+    font-weight: 700;
+}
+
+img {
+    position: relative;
+    display: block;
+    right: -750px;
+    top: -300px;
+}
+
+
+}
